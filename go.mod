@@ -1,6 +1,6 @@
 module github.com/cometbft/cometbft
 
-go 1.21
+go 1.26.0
 
 require (
 	github.com/BurntSushi/toml v1.3.2
@@ -55,7 +55,7 @@ require (
 	github.com/oasisprotocol/curve25519-voi v0.0.0-20220708102147-0a8a51822cae
 	github.com/vektra/mockery/v2 v2.38.0
 	golang.org/x/exp v0.0.0-20231110203233-9a3e6036ecaa
-	golang.org/x/sync v0.5.0
+	golang.org/x/sync v0.24.0
 	gonum.org/v1/gonum v0.14.0
 	google.golang.org/protobuf v1.31.1-0.20231027082548-f4a6c1f6e5c1
 )
